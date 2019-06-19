@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
+    {
+      path: '/wait_to_shouquan',
+      name: 'wait_to_shouquan',
+      component: require('@/views/wait_to_shouquan.vue')
+    },
   ]
 })
